@@ -22,4 +22,10 @@
     <PackageReference Include="CardboardBox.Extensions" Version="1.0.9" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Include="..\icon.jpg" Link="icon.jpg">
+			<PackagePath>\</PackagePath>
+			<Pack>True</Pack>
+		</None>
+	</ItemGroup>
 </Project>

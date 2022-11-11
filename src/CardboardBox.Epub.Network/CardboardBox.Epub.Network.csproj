@@ -26,4 +26,11 @@
     <ProjectReference Include="..\CardboardBox.Epub\CardboardBox.Epub.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Include="..\icon.jpg" Link="icon.jpg">
+			<PackagePath>\</PackagePath>
+			<Pack>True</Pack>
+		</None>
+	</ItemGroup>
+
 </Project>
