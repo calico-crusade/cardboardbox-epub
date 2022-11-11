@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>netstandard2.1</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <Authors>Cardboard</Authors>
+	  <Company>N/A</Company>
+	  <Description>Allows for building Epub ebooks in csharp</Description>
+	  <PackageProjectUrl>https://github.com/calico-crusade/cardboardbox-epub</PackageProjectUrl>
+	  <PackageIcon>icon.jpg</PackageIcon>
+	  <RepositoryUrl>https://github.com/calico-crusade/cardboardbox-epub</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>CardboardBox;Cardboard;epubs;ebooks;amazon;kindle;</PackageTags>
+	  <Version>1.0.0</Version>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CardboardBox.Extensions" Version="1.0.9" />
+  </ItemGroup>
+
+</Project>
